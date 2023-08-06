@@ -1,0 +1,1435 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 9.71741, 1.5725672245026, 4.2079877853394, },
+		bbMin = { -9.71741, -1.5746665000916, -0.048796832561493, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 6.7839574813843, 1.5736168622971, 2.1283922195435, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+				        _meshId = 1,
+                        materials = { "vehicle/waggon/Umbauwagen4yg/rumpf_CD.mtl", },
+				        mesh = "vehicle/waggon/Umbauwagen4yg/rumpf_BD_lod0.msh",
+				        name = "rumpf_B4yg",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			        },
+			        {
+				        _meshId = 2,
+                        materials = { "vehicle/waggon/Umbauwagen4yg/innen.mtl", },
+				        mesh = "vehicle/waggon/Umbauwagen4yg/innen_BD_lod0.msh",
+				        name = "innen_b4yg",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			        },
+			        {
+                        children = {
+					        {
+				                _meshId = 4,
+                                materials = { "vehicle/waggon/Umbauwagen4yg/rumpf_CD.mtl", },
+				                mesh = "vehicle/waggon/Umbauwagen4yg/bogie_lod0.msh",
+				                name = "Rad",
+				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -0.015561, 1, },
+			                },
+			                {
+				                _meshId = 5,
+                                materials = { "vehicle/waggon/Umbauwagen4yg/rumpf_CD.mtl", },
+				                mesh = "vehicle/waggon/Umbauwagen4yg/rad_lod0.msh",
+				                name = "Rad",
+				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.13356, 0, 0.407518, 1, },
+			                },
+			                {
+				                _meshId = 6,
+                                materials = { "vehicle/waggon/Umbauwagen4yg/rumpf_CD.mtl", },
+				                mesh = "vehicle/waggon/Umbauwagen4yg/rad_lod0.msh",
+				                name = "Rad",
+				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.12981, 0, 0.407518, 1, },
+			                },
+                        },
+				        name = "bogie1",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.05693, 0, 0, 1, },
+                    },
+			        {
+                        children = {
+					        {
+				                _meshId = 8,
+                                materials = { "vehicle/waggon/Umbauwagen4yg/rumpf_CD.mtl", },
+				                mesh = "vehicle/waggon/Umbauwagen4yg/bogie_lod0.msh",
+				                name = "Rad",
+				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -0.015561, 1, },
+			                },
+			                {
+				                _meshId = 9,
+                                materials = { "vehicle/waggon/Umbauwagen4yg/rumpf_CD.mtl", },
+				                mesh = "vehicle/waggon/Umbauwagen4yg/rad_lod0.msh",
+				                name = "Rad",
+				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.13356, 0, 0.407518, 1, },
+			                },
+			                {
+				                _meshId = 10,
+                                materials = { "vehicle/waggon/Umbauwagen4yg/rumpf_CD.mtl", },
+				                mesh = "vehicle/waggon/Umbauwagen4yg/rad_lod0.msh",
+				                name = "Rad",
+				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.12981, 0, 0.407518, 1, },
+			                },
+                        },
+				        name = "bogie2",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.05693, 0, 0, 1, },
+                    },
+			        {
+				        animations = {
+                            open_all_doors = {
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_1l.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            close_all_doors = {
+                                forward = false,
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_1l.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            open_doors_left = {
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_1l.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            close_doors_left = {
+	                            forward = false,
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_1l.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                        },
+                        _meshId = 11,
+                        materials = { "vehicle/waggon/Umbauwagen4yg/rumpf_CD.mtl", "vehicle/waggon/Umbauwagen4yg/glas.mtl", },
+				        mesh = "vehicle/waggon/Umbauwagen4yg/tuer_1l_lod0.msh",
+				        name = "tur_1L",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.45207, 1.0362002849579, 2.0771100521088, 1, },
+			        },
+			        {
+				        animations = {
+                            open_all_doors = {
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_1r.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            close_all_doors = {
+                                forward = false,
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_1r.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            open_doors_right = {
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_1r.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            close_doors_right = {
+	                            forward = false,
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_1r.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                        },
+                        _meshId = 12,
+                        materials = { "vehicle/waggon/Umbauwagen4yg/rumpf_CD.mtl", "vehicle/waggon/Umbauwagen4yg/glas.mtl", },
+				        mesh = "vehicle/waggon/Umbauwagen4yg/tuer_1r_lod0.msh",
+				        name = "tur_1R",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.45207, -1.0362002849579, 2.0771100521088, 1, },
+			        },
+			        {
+				        animations = {
+                            open_all_doors = {
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_2l.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            close_all_doors = {
+                                forward = false,
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_2l.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            open_doors_left = {
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_2l.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            close_doors_left = {
+	                            forward = false,
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_2l.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                        },
+                        _meshId = 13,
+                        materials = { "vehicle/waggon/Umbauwagen4yg/rumpf_CD.mtl", "vehicle/waggon/Umbauwagen4yg/glas.mtl", },
+				        mesh = "vehicle/waggon/Umbauwagen4yg/tuer_2l_lod0.msh",
+				        name = "tur_2L",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.45207, 1.0362002849579, 2.0771100521088, 1, },
+			        },
+			        {
+				        animations = {
+                            open_all_doors = {
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_2r.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            close_all_doors = {
+                                forward = false,
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_2r.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            open_doors_right = {
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_2r.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            close_doors_right = {
+	                            forward = false,
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_2r.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                        },
+                        _meshId = 14,
+                        materials = { "vehicle/waggon/Umbauwagen4yg/rumpf_CD.mtl", "vehicle/waggon/Umbauwagen4yg/glas.mtl", },
+				        mesh = "vehicle/waggon/Umbauwagen4yg/tuer_2r_lod0.msh",
+				        name = "tur_2R",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.45207, -1.0362002849579, 2.0771100521088, 1, },
+			        },
+			        {
+				        animations = {
+                            open_all_doors = {
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_1l.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            close_all_doors = {
+                                forward = false,
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_1l.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            open_doors_left = {
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_1l.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            close_doors_left = {
+	                            forward = false,
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_1l.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                        },
+                        _meshId = 15,
+                        materials = { "vehicle/waggon/Umbauwagen4yg/rumpf_CD.mtl", "vehicle/waggon/Umbauwagen4yg/glas.mtl", },
+				        mesh = "vehicle/waggon/Umbauwagen4yg/tuer_m1l_lod0.msh",
+				        name = "tur_2R",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.673901, 1.17041, 2.0771100521088, 1, },
+			        },
+			        {
+				        animations = {
+                            open_all_doors = {
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_1r.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            close_all_doors = {
+                                forward = false,
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_1r.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            open_doors_right = {
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_1r.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            close_doors_right = {
+	                            forward = false,
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_1r.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                        },
+                        _meshId = 16,
+                        materials = { "vehicle/waggon/Umbauwagen4yg/rumpf_CD.mtl", "vehicle/waggon/Umbauwagen4yg/glas.mtl", },
+				        mesh = "vehicle/waggon/Umbauwagen4yg/tuer_m1r_lod0.msh",
+				        name = "tur_2R",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.673901, -1.17041, 2.0771100521088, 1, },
+			        },
+			        {
+				        animations = {
+                            open_all_doors = {
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_2l.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            close_all_doors = {
+                                forward = false,
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_2l.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            open_doors_left = {
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_2l.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            close_doors_left = {
+	                            forward = false,
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_2l.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                        },
+                        _meshId = 17,
+                        materials = { "vehicle/waggon/Umbauwagen4yg/rumpf_CD.mtl", "vehicle/waggon/Umbauwagen4yg/glas.mtl", },
+				        mesh = "vehicle/waggon/Umbauwagen4yg/tuer_m2l_lod0.msh",
+				        name = "tur_2R",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.673901, 1.17041, 2.0771100521088, 1, },
+			        },
+			        {
+				        animations = {
+                            open_all_doors = {
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_2r.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            close_all_doors = {
+                                forward = false,
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_2r.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            open_doors_right = {
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_2r.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            close_doors_right = {
+	                            forward = false,
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_2r.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                        },
+                        _meshId = 18,
+                        materials = { "vehicle/waggon/Umbauwagen4yg/rumpf_CD.mtl", "vehicle/waggon/Umbauwagen4yg/glas.mtl", },
+				        mesh = "vehicle/waggon/Umbauwagen4yg/tuer_m2r_lod0.msh",
+				        name = "tur_2R",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.673901, -1.17041, 2.0771100521088, 1, },
+			        },
+			        {
+                        _meshId = 19,
+                        materials = { "vehicle/waggon/Umbauwagen4yg/glas.mtl", },
+				        mesh = "vehicle/waggon/Umbauwagen4yg/glas_BD_lod0.msh",
+				        name = "glas_B4yg",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			        },
+	                {
+		                _meshId = 20,
+                        materials = { "vehicle/waggon/Umbauwagen4yg/licht.mtl", },
+		                mesh = "vehicle/waggon/Umbauwagen4yg/licht_lod0.msh",
+		                name = "licht_oben",
+		                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+	                },
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 100,
+		},
+        {
+			node = {
+				children = {
+					{
+				        _meshId = 1,
+                        materials = { "vehicle/waggon/Umbauwagen4yg/rumpf_CD.mtl", },
+				        mesh = "vehicle/waggon/Umbauwagen4yg/rumpf_BD_lod1.msh",
+				        name = "rumpf_B4yg",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			        },
+			        {
+				        _meshId = 2,
+                        materials = { "vehicle/waggon/Umbauwagen4yg/innen.mtl", },
+				        mesh = "vehicle/waggon/Umbauwagen4yg/innen_BD_lod1.msh",
+				        name = "innen_b4yg",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			        },
+			        {
+                        children = {
+					        {
+				                _meshId = 4,
+                                materials = { "vehicle/waggon/Umbauwagen4yg/rumpf_CD.mtl", },
+				                mesh = "vehicle/waggon/Umbauwagen4yg/bogie_lod1.msh",
+				                name = "Rad",
+				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -0.015561, 1, },
+			                },
+			                {
+				                _meshId = 5,
+                                materials = { "vehicle/waggon/Umbauwagen4yg/rumpf_CD.mtl", },
+				                mesh = "vehicle/waggon/Umbauwagen4yg/rad_lod1.msh",
+				                name = "Rad",
+				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.13356, 0, 0.407518, 1, },
+			                },
+			                {
+				                _meshId = 6,
+                                materials = { "vehicle/waggon/Umbauwagen4yg/rumpf_CD.mtl", },
+				                mesh = "vehicle/waggon/Umbauwagen4yg/rad_lod1.msh",
+				                name = "Rad",
+				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.12981, 0, 0.407518, 1, },
+			                },
+                        },
+				        name = "bogie1",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.05693, 0, 0, 1, },
+                    },
+			        {
+                        children = {
+					        {
+				                _meshId = 8,
+                                materials = { "vehicle/waggon/Umbauwagen4yg/rumpf_CD.mtl", },
+				                mesh = "vehicle/waggon/Umbauwagen4yg/bogie_lod1.msh",
+				                name = "Rad",
+				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -0.015561, 1, },
+			                },
+			                {
+				                _meshId = 9,
+                                materials = { "vehicle/waggon/Umbauwagen4yg/rumpf_CD.mtl", },
+				                mesh = "vehicle/waggon/Umbauwagen4yg/rad_lod1.msh",
+				                name = "Rad",
+				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.13356, 0, 0.407518, 1, },
+			                },
+			                {
+				                _meshId = 10,
+                                materials = { "vehicle/waggon/Umbauwagen4yg/rumpf_CD.mtl", },
+				                mesh = "vehicle/waggon/Umbauwagen4yg/rad_lod1.msh",
+				                name = "Rad",
+				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.12981, 0, 0.407518, 1, },
+			                },
+                        },
+				        name = "bogie2",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.05693, 0, 0, 1, },
+                    },
+			        {
+				        animations = {
+                            open_all_doors = {
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_1l.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            close_all_doors = {
+                                forward = false,
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_1l.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            open_doors_left = {
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_1l.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            close_doors_left = {
+	                            forward = false,
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_1l.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                        },
+                        _meshId = 11,
+                        materials = { "vehicle/waggon/Umbauwagen4yg/rumpf_CD.mtl", "vehicle/waggon/Umbauwagen4yg/glas.mtl", },
+				        mesh = "vehicle/waggon/Umbauwagen4yg/tuer_1l_lod1.msh",
+				        name = "tur_1L",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.45207, 1.0362002849579, 2.0771100521088, 1, },
+			        },
+			        {
+				        animations = {
+                            open_all_doors = {
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_1r.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            close_all_doors = {
+                                forward = false,
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_1r.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            open_doors_right = {
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_1r.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            close_doors_right = {
+	                            forward = false,
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_1r.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                        },
+                        _meshId = 12,
+                        materials = { "vehicle/waggon/Umbauwagen4yg/rumpf_CD.mtl", "vehicle/waggon/Umbauwagen4yg/glas.mtl", },
+				        mesh = "vehicle/waggon/Umbauwagen4yg/tuer_1r_lod1.msh",
+				        name = "tur_1R",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.45207, -1.0362002849579, 2.0771100521088, 1, },
+			        },
+			        {
+				        animations = {
+                            open_all_doors = {
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_2l.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            close_all_doors = {
+                                forward = false,
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_2l.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            open_doors_left = {
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_2l.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            close_doors_left = {
+	                            forward = false,
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_2l.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                        },
+                        _meshId = 13,
+                        materials = { "vehicle/waggon/Umbauwagen4yg/rumpf_CD.mtl", "vehicle/waggon/Umbauwagen4yg/glas.mtl", },
+				        mesh = "vehicle/waggon/Umbauwagen4yg/tuer_2l_lod1.msh",
+				        name = "tur_2L",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.45207, 1.0362002849579, 2.0771100521088, 1, },
+			        },
+			        {
+				        animations = {
+                            open_all_doors = {
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_2r.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            close_all_doors = {
+                                forward = false,
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_2r.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            open_doors_right = {
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_2r.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            close_doors_right = {
+	                            forward = false,
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_2r.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                        },
+                        _meshId = 14,
+                        materials = { "vehicle/waggon/Umbauwagen4yg/rumpf_CD.mtl", "vehicle/waggon/Umbauwagen4yg/glas.mtl", },
+				        mesh = "vehicle/waggon/Umbauwagen4yg/tuer_2r_lod1.msh",
+				        name = "tur_2R",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.45207, -1.0362002849579, 2.0771100521088, 1, },
+			        },
+			        {
+				        animations = {
+                            open_all_doors = {
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_1l.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            close_all_doors = {
+                                forward = false,
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_1l.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            open_doors_left = {
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_1l.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            close_doors_left = {
+	                            forward = false,
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_1l.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                        },
+                        _meshId = 15,
+                        materials = { "vehicle/waggon/Umbauwagen4yg/rumpf_CD.mtl", "vehicle/waggon/Umbauwagen4yg/glas.mtl", },
+				        mesh = "vehicle/waggon/Umbauwagen4yg/tuer_m1l_lod1.msh",
+				        name = "tur_2R",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.673901, 1.17041, 2.0771100521088, 1, },
+			        },
+			        {
+				        animations = {
+                            open_all_doors = {
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_1r.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            close_all_doors = {
+                                forward = false,
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_1r.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            open_doors_right = {
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_1r.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            close_doors_right = {
+	                            forward = false,
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_1r.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                        },
+                        _meshId = 16,
+                        materials = { "vehicle/waggon/Umbauwagen4yg/rumpf_CD.mtl", "vehicle/waggon/Umbauwagen4yg/glas.mtl", },
+				        mesh = "vehicle/waggon/Umbauwagen4yg/tuer_m1r_lod1.msh",
+				        name = "tur_2R",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.673901, -1.17041, 2.0771100521088, 1, },
+			        },
+			        {
+				        animations = {
+                            open_all_doors = {
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_2l.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            close_all_doors = {
+                                forward = false,
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_2l.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            open_doors_left = {
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_2l.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            close_doors_left = {
+	                            forward = false,
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_2l.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                        },
+                        _meshId = 17,
+                        materials = { "vehicle/waggon/Umbauwagen4yg/rumpf_CD.mtl", "vehicle/waggon/Umbauwagen4yg/glas.mtl", },
+				        mesh = "vehicle/waggon/Umbauwagen4yg/tuer_m2l_lod1.msh",
+				        name = "tur_2R",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.673901, 1.17041, 2.0771100521088, 1, },
+			        },
+			        {
+				        animations = {
+                            open_all_doors = {
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_2r.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            close_all_doors = {
+                                forward = false,
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_2r.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            open_doors_right = {
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_2r.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            close_doors_right = {
+	                            forward = false,
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_2r.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                        },
+                        _meshId = 18,
+                        materials = { "vehicle/waggon/Umbauwagen4yg/rumpf_CD.mtl", "vehicle/waggon/Umbauwagen4yg/glas.mtl", },
+				        mesh = "vehicle/waggon/Umbauwagen4yg/tuer_m2r_lod1.msh",
+				        name = "tur_2R",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.673901, -1.17041, 2.0771100521088, 1, },
+			        },
+			        {
+                        _meshId = 19,
+                        materials = { "vehicle/waggon/Umbauwagen4yg/glas.mtl", },
+				        mesh = "vehicle/waggon/Umbauwagen4yg/glas_BD_lod0.msh",
+				        name = "glas_B4yg",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			        },
+	                {
+		                _meshId = 20,
+                        materials = { "vehicle/waggon/Umbauwagen4yg/licht.mtl", },
+		                mesh = "vehicle/waggon/Umbauwagen4yg/licht_lod0.msh",
+		                name = "licht_oben",
+		                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+	                },
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 100,
+			visibleTo = 500,
+		},
+        {
+			node = {
+				children = {
+					{
+				        _meshId = 1,
+                        materials = { "vehicle/waggon/Umbauwagen4yg/rumpf_CD.mtl", },
+				        mesh = "vehicle/waggon/Umbauwagen4yg/rumpf_BD_lod2.msh",
+				        name = "rumpf_B4yg",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			        },
+			        {
+                        children = {
+					        {
+				                _meshId = 4,
+                                materials = { "vehicle/waggon/Umbauwagen4yg/rumpf_CD.mtl", },
+				                mesh = "vehicle/waggon/Umbauwagen4yg/bogie_lod2.msh",
+				                name = "Rad",
+				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -0.015561, 1, },
+			                },
+			                {
+				                _meshId = 5,
+                                materials = { "vehicle/waggon/Umbauwagen4yg/rumpf_CD.mtl", },
+				                mesh = "vehicle/waggon/Umbauwagen4yg/rad_lod2.msh",
+				                name = "Rad",
+				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.13356, 0, 0.407518, 1, },
+			                },
+			                {
+				                _meshId = 6,
+                                materials = { "vehicle/waggon/Umbauwagen4yg/rumpf_CD.mtl", },
+				                mesh = "vehicle/waggon/Umbauwagen4yg/rad_lod2.msh",
+				                name = "Rad",
+				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.12981, 0, 0.407518, 1, },
+			                },
+                        },
+				        name = "bogie1",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.05693, 0, 0, 1, },
+                    },
+			        {
+                        children = {
+					        {
+				                _meshId = 8,
+                                materials = { "vehicle/waggon/Umbauwagen4yg/rumpf_CD.mtl", },
+				                mesh = "vehicle/waggon/Umbauwagen4yg/bogie_lod2.msh",
+				                name = "Rad",
+				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -0.015561, 1, },
+			                },
+			                {
+				                _meshId = 9,
+                                materials = { "vehicle/waggon/Umbauwagen4yg/rumpf_CD.mtl", },
+				                mesh = "vehicle/waggon/Umbauwagen4yg/rad_lod2.msh",
+				                name = "Rad",
+				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.13356, 0, 0.407518, 1, },
+			                },
+			                {
+				                _meshId = 10,
+                                materials = { "vehicle/waggon/Umbauwagen4yg/rumpf_CD.mtl", },
+				                mesh = "vehicle/waggon/Umbauwagen4yg/rad_lod2.msh",
+				                name = "Rad",
+				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.12981, 0, 0.407518, 1, },
+			                },
+                        },
+				        name = "bogie2",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.05693, 0, 0, 1, },
+                    },
+			        {
+				        animations = {
+                            open_all_doors = {
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_1l.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            close_all_doors = {
+                                forward = false,
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_1l.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            open_doors_left = {
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_1l.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            close_doors_left = {
+	                            forward = false,
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_1l.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                        },
+                        _meshId = 11,
+                        materials = { "vehicle/waggon/Umbauwagen4yg/rumpf_CD.mtl", "vehicle/waggon/Umbauwagen4yg/glas.mtl", },
+				        mesh = "vehicle/waggon/Umbauwagen4yg/tuer_1l_lod2.msh",
+				        name = "tur_1L",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.45207, 1.0362002849579, 2.0771100521088, 1, },
+			        },
+			        {
+				        animations = {
+                            open_all_doors = {
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_1r.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            close_all_doors = {
+                                forward = false,
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_1r.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            open_doors_right = {
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_1r.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            close_doors_right = {
+	                            forward = false,
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_1r.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                        },
+                        _meshId = 12,
+                        materials = { "vehicle/waggon/Umbauwagen4yg/rumpf_CD.mtl", "vehicle/waggon/Umbauwagen4yg/glas.mtl", },
+				        mesh = "vehicle/waggon/Umbauwagen4yg/tuer_1r_lod2.msh",
+				        name = "tur_1R",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.45207, -1.0362002849579, 2.0771100521088, 1, },
+			        },
+			        {
+				        animations = {
+                            open_all_doors = {
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_2l.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            close_all_doors = {
+                                forward = false,
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_2l.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            open_doors_left = {
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_2l.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            close_doors_left = {
+	                            forward = false,
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_2l.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                        },
+                        _meshId = 13,
+                        materials = { "vehicle/waggon/Umbauwagen4yg/rumpf_CD.mtl", "vehicle/waggon/Umbauwagen4yg/glas.mtl", },
+				        mesh = "vehicle/waggon/Umbauwagen4yg/tuer_2l_lod2.msh",
+				        name = "tur_2L",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.45207, 1.0362002849579, 2.0771100521088, 1, },
+			        },
+			        {
+				        animations = {
+                            open_all_doors = {
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_2r.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            close_all_doors = {
+                                forward = false,
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_2r.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            open_doors_right = {
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_2r.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            close_doors_right = {
+	                            forward = false,
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_2r.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                        },
+                        _meshId = 14,
+                        materials = { "vehicle/waggon/Umbauwagen4yg/rumpf_CD.mtl", "vehicle/waggon/Umbauwagen4yg/glas.mtl", },
+				        mesh = "vehicle/waggon/Umbauwagen4yg/tuer_2r_lod2.msh",
+				        name = "tur_2R",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.45207, -1.0362002849579, 2.0771100521088, 1, },
+			        },
+			        {
+				        animations = {
+                            open_all_doors = {
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_1l.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            close_all_doors = {
+                                forward = false,
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_1l.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            open_doors_left = {
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_1l.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            close_doors_left = {
+	                            forward = false,
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_1l.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                        },
+                        _meshId = 15,
+                        materials = { "vehicle/waggon/Umbauwagen4yg/rumpf_CD.mtl", "vehicle/waggon/Umbauwagen4yg/glas.mtl", },
+				        mesh = "vehicle/waggon/Umbauwagen4yg/tuer_m1l_lod2.msh",
+				        name = "tur_2R",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.673901, 1.17041, 2.0771100521088, 1, },
+			        },
+			        {
+				        animations = {
+                            open_all_doors = {
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_1r.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            close_all_doors = {
+                                forward = false,
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_1r.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            open_doors_right = {
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_1r.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            close_doors_right = {
+	                            forward = false,
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_1r.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                        },
+                        _meshId = 16,
+                        materials = { "vehicle/waggon/Umbauwagen4yg/rumpf_CD.mtl", "vehicle/waggon/Umbauwagen4yg/glas.mtl", },
+				        mesh = "vehicle/waggon/Umbauwagen4yg/tuer_m1r_lod2.msh",
+				        name = "tur_2R",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.673901, -1.17041, 2.0771100521088, 1, },
+			        },
+			        {
+				        animations = {
+                            open_all_doors = {
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_2l.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            close_all_doors = {
+                                forward = false,
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_2l.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            open_doors_left = {
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_2l.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            close_doors_left = {
+	                            forward = false,
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_2l.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                        },
+                        _meshId = 17,
+                        materials = { "vehicle/waggon/Umbauwagen4yg/rumpf_CD.mtl", "vehicle/waggon/Umbauwagen4yg/glas.mtl", },
+				        mesh = "vehicle/waggon/Umbauwagen4yg/tuer_m2l_lod2.msh",
+				        name = "tur_2R",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.673901, 1.17041, 2.0771100521088, 1, },
+			        },
+			        {
+				        animations = {
+                            open_all_doors = {
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_2r.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            close_all_doors = {
+                                forward = false,
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_2r.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            open_doors_right = {
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_2r.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                            close_doors_right = {
+	                            forward = false,
+	                            params = {
+		                            id = "vehicle/waggon/Umbauwagen4yg/doors/door_2r.ani",
+	                            },
+	                            type = "FILE_REF",
+                            },
+                        },
+                        _meshId = 18,
+                        materials = { "vehicle/waggon/Umbauwagen4yg/rumpf_CD.mtl", "vehicle/waggon/Umbauwagen4yg/glas.mtl", },
+				        mesh = "vehicle/waggon/Umbauwagen4yg/tuer_m2r_lod2.msh",
+				        name = "tur_2R",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.673901, -1.17041, 2.0771100521088, 1, },
+			        },
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 500,
+			visibleTo = 1800,
+		},
+	},
+	metadata = {
+		availability = {
+			yearFrom = 1954,
+			yearTo = 1956,
+		},
+		cost = {
+			price = -1,
+			priceScale = 1,
+		},
+		description = {
+			name = _("CPw4yg_1_name"),
+			description = _("CPw4yg_1_desc")
+		},
+		emission = {
+			idleEmission = -1,
+			powerEmission = -1,
+			speedEmission = -1,
+		},
+		maintenance = {
+			lifespan = 21915,
+			runningCostScale = 1,
+			runningCosts = -1,
+		},
+		railVehicle = {
+			configs = {
+                {
+					axles = { "vehicle/waggon/Umbauwagen4yg/rad_lod0.msh", },
+					backBackwardParts = { },
+					backForwardParts = { 20, },
+					frontBackwardParts = { },
+					frontForwardParts = { },
+					innerBackwardParts = { },
+					innerForwardParts = { },
+				},
+                {
+					axles = { "vehicle/waggon/Umbauwagen4yg/rad_lod1.msh", },
+					backBackwardParts = { },
+					backForwardParts = { },
+					frontBackwardParts = { 20, },
+					frontForwardParts = { },
+					innerBackwardParts = { },
+					innerForwardParts = { },
+				},
+                {
+					axles = { "vehicle/waggon/Umbauwagen4yg/rad_lod2.msh", },
+					backBackwardParts = { },
+					backForwardParts = { },
+					frontBackwardParts = { },
+					frontForwardParts = { },
+					innerBackwardParts = { },
+					innerForwardParts = { },
+				},
+            },
+			engines = { },
+			soundSet = {
+				name = "waggon_modern",
+			},
+			topSpeed = 33.333333333,
+			weight = 29.0,
+		},
+		seatProvider = {
+			crewModels = { },
+			drivingLicense = "RAIL",
+			seats = {
+				{
+					animation = "sitting",
+					crew = true,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 7.5, 0.7, 1.2, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = true,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 7.5, -0.7, 1.2, 1, },
+				},
+                -- passengers
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0.174, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.1, -1.1, 1.2, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.1, -0.6, 1.2, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0.174, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -7.2, -1.1, 1.2, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -7.2, -0.6, 1.2, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0.174, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.6, -1.1, 1.2, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.6, -0.6, 1.2, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, -0.174, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.6, 1.1, 1.2, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.6, 0.6, 1.2, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, -0.174, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -5.7, 1.1, 1.2, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -5.7, 0.6, 1.2, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0.174, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -5.7, -1.1, 1.2, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -5.7, -0.6, 1.2, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0.174, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.1, -1.1, 1.2, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.1, -0.6, 1.2, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, -0.174, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.1, 1.1, 1.2, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.1, 0.6, 1.2, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, -0.174, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -4.2, 1.1, 1.2, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -4.2, 0.6, 1.2, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0.174, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -4.2, -1.1, 1.2, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -4.2, -0.6, 1.2, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0.174, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.6, -1.1, 1.2, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.6, -0.6, 1.2, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, -0.174, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.6, 1.1, 1.2, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.6, 0.6, 1.2, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, -0.174, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -2.6, 1.1, 1.2, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -2.6, 0.6, 1.2, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0.174, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -2.6, -1.1, 1.2, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -2.6, -0.6, 1.2, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, -0.174, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.0, 1.1, 1.2, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.0, 0.6, 1.2, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.0, -0.6, 1.2, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0.174, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.0, -1.1, 1.2, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0.174, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -1.1, -1.1, 1.2, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -1.1, -0.6, 1.2, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, -0.174, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -1.1, 1.1, 1.2, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -1.1, 0.6, 1.2, 1, },
+				},
+			},
+		},
+		transportVehicle = {
+			carrier = "RAIL",
+			compartmentsList = {
+				{
+					loadConfigs = {
+						{
+							cargoEntries = {
+								{
+									capacity = 36,
+									seats = { },
+									type = "PASSENGERS",
+								},
+							},
+							toHide = { },
+						},
+					},
+				},
+			},
+			loadSpeed = 3,
+			multipleUnitOnly = false,
+			reversible = false,
+            groupFileName = "vehicle/waggon/Umbauwagen4yg/menu_Umbauwagen4yg.mdl",
+		},
+	},
+	version = 1,
+}
+end
