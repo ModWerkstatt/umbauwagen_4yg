@@ -5,16 +5,12 @@ return {
 			albedoScale = math.pow(1.37, 0.8),
 		},
 		dirt_rust = {
-			dirtColor = {
-				55/255, 40/255, 29/255,
-			},
+			dirtColor = { 55/255, 40/255, 29/255, },
 			dirtOpacity = 10/100,
-			dirtScale = 100/12.5,
-			rustColor = {
-				62/255, 44/255, 36/255,
-			},
+			dirtScale = 100,
+			rustColor = { 62/255, 44/255, 36/255, },
 			rustOpacity = 50/100,
-			rustScale = 100/34.77,
+			rustScale = 100,
 		},
 		fade_out_range = {
 			fadeOutEndDist = 20000,
